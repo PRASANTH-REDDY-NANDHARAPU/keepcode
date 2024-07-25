@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/webpageCss/signup.css">
+    <link rel="stylesheet" href="../css/webpageCss/same.css">
+</head>
+<body>
+    <%- include('../webpageViews/navbar.ejs') %>
+    <div class="all">
+        <div class="signup-container">
+            <form class="sign-form" action="/join-now" method="post">
+                <div class="sign-flex">
+                    <h4><span class="blue">K</span>eep <span class="blue">C</span>ode</h4>
+                    <h4>Join Now</h4>
+                </div>
+                <p>Enter your details below to join for free demo class.</p>
+                <div class="con-input">
+                    <p>Full name</p>
+                    <input type="text" name="joinName" placeholder="Enter...">
+                </div>
+                <div class="con-input">
+                    <p>Email</p>
+                    <input type="email" name="joinEmail" placeholder="Enter...">
+                </div>
+                <div class="con-input">
+                    <p>Phone Number</p>
+                    <input type="text" name="joinNumber" placeholder="Enter...">
+                </div>
+                <div class="con-input">
+                    <p>State</p>
+                    <input type="text" name="joinState" placeholder="Enter...">
+                </div>
+               <div class="con-input">
+                   <p>Refer by</p>
+                   <select name="joinRefer" id="">
+                    <optgroup label="Section 1">
+                        <option value="ads">Instagram,youtube ads</option>
+                        <option value="friend">Refered by friend</option>
+                        <option value="others">Others</option>
+                    </optgroup>
+                   </select>
+               </div>
+                <p> </p>
+                <button class="sign-btn">JOIN NOW</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

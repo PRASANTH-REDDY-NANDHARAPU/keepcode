@@ -1,0 +1,24 @@
+exports.home=(req,res)=>{
+    res.render('./webpageViews/home.ejs',{currentPath:req.path})
+}
+exports.about=(req,res)=>{
+    res.render('./webpageViews/about.ejs',{currentPath:req.path})
+}
+exports.joinFreeClass=(req,res)=>{
+    res.render('./webpageViews/joinFreeClass.ejs',{currentPath:req.path})
+}
+exports.roadmap=(req,res)=>{
+    res.render('./webpageViews/roadmap.ejs',{currentPath:req.path})
+}
+exports.courses=(req,res)=>{
+    res.render('./webpageViews/courses.ejs',{currentPath:req.path})
+}
+exports.contact=(req,res)=>{
+    res.render('./webpageViews/contact.ejs',{currentPath:req.path})
+}
+exports.signup=(req,res)=>{
+    res.render('./webpageViews/signup.ejs',{currentPath:req.path})
+}
+exports.signin=(req,res)=>{
+    res.render('./webpageViews/signin.ejs',{currentPath:req.path})
+}

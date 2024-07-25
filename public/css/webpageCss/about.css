@@ -1,0 +1,20 @@
+
+.about-section-1{
+    text-align: center;
+    color: white;
+    background-image: url('/images/aboutImages/955134_1046.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
+.about-keep{
+    font-size: 40px;
+}
+.about-section-1>p{
+    font-size: 25px;
+}
+.about-section-1>.quote{
+    font-size:50px;
+    font-weight: bolder;
+    color:white;
+}

@@ -1,0 +1,58 @@
+.signup-container {
+  width: 100%;
+}
+.sign-form {
+  width: 600px;
+  margin: 10px auto;
+  padding: 40px 80px;
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: rgb(27, 26, 26);
+  border-radius: 10px;
+}
+.sign-form > p {
+  font-size: 12px;
+}
+.con-input > p {
+  font-size: 12px;
+  margin: 0;
+}
+.con-input {
+  text-align: start;
+  margin-top: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.con-input > input {
+  width: 100%;
+  padding: 3px 10px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.con-input > select {
+  width: 100%;
+  padding: 3px 10px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.sign-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sign-btn {
+  width: 100%;
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  font-weight: bolder;
+  border-radius: 5px;
+}

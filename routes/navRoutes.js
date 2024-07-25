@@ -1,0 +1,12 @@
+const express=require('express')
+const router=express.Router()
+const homeControllers=require('../controllers/homeControllers')
+router.get("/",homeControllers.home)
+router.get("/about",homeControllers.about)
+router.get("/join-free-class",homeControllers.joinFreeClass)
+router.get("/roadmap",homeControllers.roadmap)
+router.get("/courses",homeControllers.courses)
+router.get("/contact",homeControllers.contact)
+router.get("/signup",homeControllers.signup)
+router.get("/signin",homeControllers.signin)
+module.exports=router 
